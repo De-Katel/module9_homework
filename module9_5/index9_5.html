@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9_5</title>
+</head>
+
+<body>
+    <p>Условия:</p>
+    <ul>
+        <li>Если число в первом input не попадает в диапазон от 1 до 10 или не является числом — выводить ниже текст
+            «Номер страницы вне диапазона от 1 до 10»
+        </li>
+        <li> сли число во втором input не попадает в диапазон от 1 до 10 или не является числом — выводить ниже текст
+            «Лимит вне диапазона от 1 до 10»
+        </li>
+        <li>
+            Если и первый, и второй input не в диапазонах или не являются числами — выводить ниже текст «Номер страницы
+            и лимит вне диапазона от 1 до 10»
+        </li>
+        <li>
+            Если пользователь перезагрузил страницу, то ему должны показываться картинки из последнего успешно
+            выполненного запроса (использовать localStorage).
+        </li>
+    </ul>
+    <input id="stringNumber" type="text" placeholder="Введите номер страницы">
+    <input id="limit" type="text" placeholder="Введите лимит количества изображений">
+    <input id="butt" type="button" value="Запрос" />
+    <input id="clear" type="button" value="Сброс" />
+    <div id="showImage"></div>
+    <script src="module9_5.js"></script>
+</body>
+
+</html>
